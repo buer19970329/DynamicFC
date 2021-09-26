@@ -29,8 +29,8 @@ Window tpyes(wt):
 
 
 # 2. HelperFunctions
-1) get time series
-2) p value corrected after computing dfc
+1) get time series: [get_ts.py](helpfunctions/get_ts.py)
+2) p value corrected after computing dfc: [p_corred.py](helpfunctions/p_corred.py)
 -------
 **Do not hesitate contact me if you have any further questions**
 
