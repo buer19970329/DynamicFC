@@ -1,7 +1,7 @@
 # DynamicFC
 
 
-A very simply function for extracting dynamic functional connectivity (dfc), based on python.
+A very simply function for computing dynamic functional connectivity (dfc), based on python.
 
 
 -----
@@ -28,9 +28,10 @@ Window tpyes(wt):
 * Here is a rough pipeline showing how to use it: [dfc_pipeline.ipynb](/dfc_pipeline.ipynb)
 
 
-# 2. HelperFunction
+# 2. HelperFunctions
 1) get time series
 2) p value corrected after computing dfc
+-------
+**Do not hesitate contact me if you have any further questions**
 
-**
 **Have fun :)**
