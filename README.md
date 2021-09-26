@@ -10,7 +10,7 @@ This repository contains:
 
 # 1. Function
 ```
-Main function for extracting dfc [dynamicFC.py](Dynamic/dynamicFC.py)
+Main function for extracting dfc [dynamicFC.py](/dynamicFC.py)
 ```
 * Matlab scripts: [HM_lik.m](HM/matlab/HM_lik.m) → [HM_fit.m](HM/matlab/HM_fit.m)
 * Python scripts (highly recommended): [HM_lik.py](HM/HM_lik.py) → [HM_fit.py](HM/HM_fit.py)
