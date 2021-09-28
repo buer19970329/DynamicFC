@@ -64,6 +64,7 @@ Usage: computing dynamic functional connectivity between ROIs
         a. 4D matrix (nsubj, nwindows, nrois, nrois) 
         b. or, 3D matrix (nsubj, nwindows, nrois * nrois), depending on Vectorize
 ```
+**Note**: Try to compute [test_data](Tool-for-Computing-DynamicFC/test_data) before compute the real data
 
 # 2. Python Function
 ```
