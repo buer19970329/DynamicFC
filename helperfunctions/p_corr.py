@@ -25,4 +25,4 @@ method:
             if len(parray) == len(p_data_str):
                 print("Congrats! \033[1;35m %s \033[0m survived \033[1;31m %s \033[0m correction,p.%s=\033[1;31m %.3f \033[0m😁" % (corr_labels_str[i], method, method, p_corrected[i]))
     return p_corrected
-#仅适用于本样本,报错修改<line 22>
+#仅适用于本样本,报错修改<line 23>
