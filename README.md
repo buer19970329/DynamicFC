@@ -90,8 +90,9 @@ Window tpyes(wt):
 1) get time series: [get_ts.py](helperfunctions/get_ts.py)
 2) p value corrected after computing dfc: [p_corr.py](helperfunctions/p_corr.py)
 3) ~~convert .npz output to csv~~
-* use python to check your dfc output (very easy & convenient, just type: np.load('path/output.npz'))
+* use python to check your dfc output (very easy & convenient, just type: `np.load('path_to_your_output/output.npz')`)
 -------
+
 
 **Do not hesitate contact me if you have any further questions**
 
