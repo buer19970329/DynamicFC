@@ -88,7 +88,7 @@ Window tpyes(wt):
 
 # 3. HelperFunctions
 1) get time series: [get_ts.py](helperfunctions/get_ts.py)
-2) p value corrected after computing dfc: [p_corred.py](helperfunctions/p_corred.py)
+2) p value corrected after computing dfc: [p_corr.py](helperfunctions/p_corr.py)
 3) convert a .npz output to csv
 -------
 
