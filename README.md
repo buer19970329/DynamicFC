@@ -91,11 +91,12 @@ Window tpyes(wt):
 2) p value corrected after computing dfc: [p_corr.py](helperfunctions/p_corr.py)
 3) ~~convert .npz output to csv~~
 * use python to check your dfc output (very easy & convenient, just type: `np.load('path_to_your_output/output.npz')`)
--------
 
 # Reference:
 1. Zhuang, X., Yang, Z., Mishra, V., Sreenivasan, K., Bernick, C., & Cordes, D. (2020). Single-scale time-dependent window-sizes in sliding-window dynamic functional connectivity analysis: a validation study. Neuroimage, 220, 117111.
 2. Mokhtari, F., Akhlaghi, M. I., Simpson, S. L., Wu, G., & Laurienti, P. J. (2019). Sliding window correlation analysis: Modulating window shape for dynamic brain connectivity in resting state. Neuroimage, 189, 655-666.
+
+-------
 
 **Do not hesitate to contact me if you have any further questions**
 
