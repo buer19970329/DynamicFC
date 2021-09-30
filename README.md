@@ -94,6 +94,6 @@ Window tpyes(wt):
 -------
 
 
-**Do not hesitate contact me if you have any further questions**
+**Do not hesitate to contact me if you have any further questions**
 
 **Have fun :)**
