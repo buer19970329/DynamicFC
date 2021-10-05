@@ -2,6 +2,7 @@
 import numpy as np
 import scipy.io as io
 import os
+import sys
 
 def npz2mat(data='full_path'):
     """
@@ -28,3 +29,6 @@ def npz2mat(data='full_path'):
     # convert npz to mat
     npz = np.load(data)
     io.savemat(os.path.join(data_path,data_name),{'data':npz})
+    
+if __name__ == '__main__':
+    globals()[sys.argv[1]](sys.argv[2])
