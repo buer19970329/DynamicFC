@@ -11,6 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from code.dynamicFC import *
 from code.all_npz import *
+from sklearn.covariance import EmpiricalCovariance
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
@@ -308,23 +309,23 @@ class Ui_Dialog(object):
         if self.checkBox.checkState() == QtCore.Qt.Checked:
             if self.radioButton.isChecked():
                 if self.radioButton_3.isChecked():
-                    estimator = ConnectivityMeasure(kind='correlation', vectorize=True, discard_diagonal=True)
+                    estimator = ConnectivityMeasure(cov_estimator=EmpiricalCovariance(), kind='correlation', vectorize=True, discard_diagonal=True)
                     all_FC_sl = []
                     for sl in all_sl:
                         all_FC_sl.append(estimator.fit_transform(sl))
                 if self.radioButton_4.isChecked():
-                    estimator = ConnectivityMeasure(kind='correlation', vectorize=False, discard_diagonal=True)
+                    estimator = ConnectivityMeasure(cov_estimator=EmpiricalCovariance(), kind='correlation', vectorize=False, discard_diagonal=True)
                     all_FC_sl = []
                     for sl in all_sl:
                         all_FC_sl.append(estimator.fit_transform(sl))
             if self.radioButton_2.isChecked():
                 if self.radioButton_3.isChecked():
-                    estimator = ConnectivityMeasure(kind='covariance', vectorize=True, discard_diagonal=True)
+                    estimator = ConnectivityMeasure(cov_estimator=EmpiricalCovariance(), kind='covariance', vectorize=True, discard_diagonal=True)
                     all_FC_sl = []
                     for sl in all_sl:
                         all_FC_sl.append(estimator.fit_transform(sl))
                 if self.radioButton_4.isChecked():
-                    estimator = ConnectivityMeasure(kind='covariance', vectorize=False, discard_diagonal=True)
+                    estimator = ConnectivityMeasure(cov_estimator=EmpiricalCovariance(), kind='covariance', vectorize=False, discard_diagonal=True)
                     all_FC_sl = []
                     for sl in all_sl:
                         all_FC_sl.append(estimator.fit_transform(sl))
