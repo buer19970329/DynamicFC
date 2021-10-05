@@ -93,7 +93,9 @@ Window tpyes(wt):
 3) ~~convert .npz output to csv~~
 * use python to check your dfc output (very easy & convenient, just type: `np.load('path_to_your_output/output.npz')`)
 4) convert .npz to .mat: [npz2mat.py](helperfunctions/npz2mat.py)
-* `npz2mat.mat('full_path_to_your_data')`
+* in python:`import npz2mat` `npz2mat('full_path_to_your_data')`
+* in termianl: `python npz2mat.py npz2mat 'full_path_to_your_data'`
+
 
 # Reference:
 1. Zhuang, X., Yang, Z., Mishra, V., Sreenivasan, K., Bernick, C., & Cordes, D. (2020). Single-scale time-dependent window-sizes in sliding-window dynamic functional connectivity analysis: a validation study. Neuroimage, 220, 117111.
