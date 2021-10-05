@@ -15,11 +15,12 @@ For people who don't enjoy coding. ˃͜˂
 
 **Step:**
 1) [Python environment](https://www.python.org/)
-2) install [PyQt5](https://pypi.org/project/PyQt5/) & [nilearn](https://nilearn.github.io/)
+2) install [PyQt5](https://pypi.org/project/PyQt5/) & [nilearn](https://nilearn.github.io/) & [sklearn](https://scikit-learn.org/)
 * you can just type the following command in your terminal or cmd
 ```
-pip install PyQt5
-pip install nilearn
+pip install -U PyQt5
+pip install -U nilearn
+pip install -U scikit-learn
 ```
 * or, python our script [setup.py](Tool-for-Computing-DynamicFC/setup.py):
 ```
